@@ -237,7 +237,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -246,6 +246,15 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVGNTSPU
+
+[ProjectVariant1]
+UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
+Description=JLCPCB SMT Assembley
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R?|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Parameter1]
 Name=Approv_Date_Chk
@@ -377,7 +386,7 @@ ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=1
-SCH_PrintColor=2
+SCH_PrintColor=0
 PrintQuality=-4
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
