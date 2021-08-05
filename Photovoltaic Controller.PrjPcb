@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=Project Outputs for Photovoltaic Controller
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=A88AC864-7F10-477D-A582-77F547FCAFC0
 VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8
@@ -114,8 +114,8 @@ DocumentUniqueId=
 [Document5]
 DocumentPath=Controller.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
@@ -148,11 +148,11 @@ DocumentUniqueId=
 [Document7]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=900
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=2
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -165,8 +165,8 @@ DocumentUniqueId=NNAZDRRT
 [Document8]
 DocumentPath=Bridge.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=4
@@ -182,11 +182,11 @@ DocumentUniqueId=VOYTZFHN
 [Document9]
 DocumentPath=Bias Regulators 1.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -199,11 +199,11 @@ DocumentUniqueId=NDHAMSUP
 [Document10]
 DocumentPath=Bias Regulators 2.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=6
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -220,7 +220,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -268,100 +268,100 @@ Variation12=Designator=C17|UniqueId=\XXFLQPNC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
-
-[Parameter3]
-Name=Rev_No_3
-Value=-
-
-[Parameter4]
-Name=Rev_No_2
-Value=-
-
-[Parameter5]
-Name=Rev_No_1
-Value=-
-
-[Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
-
-[Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
-
-[Parameter8]
-Name=Rev_Desc_2
-Value=- - - - -
-
-[Parameter9]
-Name=Rev_Desc_1
-Value=- - - - -
-
-[Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
-
-[Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
-
-[Parameter12]
-Name=Rev_Date_2
-Value=--/--/----
-
-[Parameter13]
-Name=Rev_Date_1
-Value=--/--/----
-
-[Parameter14]
-Name=Project_Revision
-Value=v0.0
-
-[Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter16]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter17]
-Name=DwgTitleLine2
-Value=- - - - -
-
-[Parameter18]
-Name=DwgTitleLine1
-Value=- - - - -
-
-[Parameter19]
-Name=CPL_DOC
-Value=Pick & Place.csv
-
-[Parameter20]
-Name=Checker
-Value=[UNCHECKED]
-
-[Parameter21]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter22]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter23]
 Name=Approv_Date_Eng
 Value=--/--/----
 
-[Parameter24]
-Name=Approv_Date_Chk
+[Parameter3]
+Name=ASM_DOC
+Value=Assembley.PCBDwf
+
+[Parameter4]
+Name=BOM_DOC
+Value=Bill of Materials.csv
+
+[Parameter5]
+Name=Checker
+Value=[UNCHECKED]
+
+[Parameter6]
+Name=CPL_DOC
+Value=Pick & Place.csv
+
+[Parameter7]
+Name=DwgTitleLine1
+Value=- - - - -
+
+[Parameter8]
+Name=DwgTitleLine2
+Value=- - - - -
+
+[Parameter9]
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
+
+[Parameter10]
+Name=PCB_DOC
+Value=PCB.PcbDoc
+
+[Parameter11]
+Name=Project_Revision
+Value=v0.0
+
+[Parameter12]
+Name=Rev_Date_1
 Value=--/--/----
+
+[Parameter13]
+Name=Rev_Date_2
+Value=--/--/----
+
+[Parameter14]
+Name=Rev_Date_3
+Value=--/--/----
+
+[Parameter15]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter16]
+Name=Rev_Desc_1
+Value=- - - - -
+
+[Parameter17]
+Name=Rev_Desc_2
+Value=- - - - -
+
+[Parameter18]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter19]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter20]
+Name=Rev_No_1
+Value=-
+
+[Parameter21]
+Name=Rev_No_2
+Value=-
+
+[Parameter22]
+Name=Rev_No_3
+Value=-
+
+[Parameter23]
+Name=Rev_No_4
+Value=-
+
+[Parameter24]
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources
@@ -417,7 +417,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Photovoltaic Controller
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1211,102 +1211,6 @@ SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name Only
-ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-010-000287-8
-ComponentSymbolReference0=Chip Resistor
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name Only
-ComponentLibraryIdentifier1=University of Cape Town
-ComponentDesignItemID1=CMP-010-000293-7
-ComponentSymbolReference1=Chip Resistor
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name Only
-ComponentLibraryIdentifier2=University of Cape Town
-ComponentDesignItemID2=CMP-010-000294-8
-ComponentSymbolReference2=Chip Resistor
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name Only
-ComponentLibraryIdentifier3=University of Cape Town
-ComponentDesignItemID3=CMP-010-000303-7
-ComponentSymbolReference3=Chip Resistor
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name Only
-ComponentLibraryIdentifier4=University of Cape Town
-ComponentDesignItemID4=CMP-010-000314-8
-ComponentSymbolReference4=Chip Resistor
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name Only
-ComponentLibraryIdentifier5=University of Cape Town
-ComponentDesignItemID5=CMP-010-000332-8
-ComponentSymbolReference5=Chip Resistor
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name Only
-ComponentLibraryIdentifier6=University of Cape Town
-ComponentDesignItemID6=CMP-010-000333-5
-ComponentSymbolReference6=Chip Resistor
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name Only
-ComponentLibraryIdentifier7=University of Cape Town
-ComponentDesignItemID7=CMP-010-000336-13
-ComponentSymbolReference7=Chip Resistor
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name Only
-ComponentLibraryIdentifier8=University of Cape Town
-ComponentDesignItemID8=CMP-010-000364-1
-ComponentSymbolReference8=Chip Resistor
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name Only
-ComponentLibraryIdentifier9=University of Cape Town
-ComponentDesignItemID9=CMP-010-000365-1
-ComponentSymbolReference9=Chip Resistor
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name Only
-ComponentLibraryIdentifier10=University of Cape Town
-ComponentDesignItemID10=CMP-010-000369-1
-ComponentSymbolReference10=Chip Resistor
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name Only
-ComponentLibraryIdentifier11=University of Cape Town
-ComponentDesignItemID11=CMP-010-000371-2
-ComponentSymbolReference11=Chip Resistor
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name Only
-ComponentLibraryIdentifier12=University of Cape Town
-ComponentDesignItemID12=CMP-010-000373-2
-ComponentSymbolReference12=Chip Resistor
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name Only
-ComponentLibraryIdentifier13=University of Cape Town
-ComponentDesignItemID13=CMP-010-000374-1
-ComponentSymbolReference13=Chip Resistor
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name Only
-ComponentLibraryIdentifier14=University of Cape Town
-ComponentDesignItemID14=CMP-010-000376-1
-ComponentSymbolReference14=Chip Resistor
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name Only
-ComponentLibraryIdentifier15=University of Cape Town
-ComponentDesignItemID15=CMP-010-000378-1
-ComponentSymbolReference15=Chip Resistor
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1320,84 +1224,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
-ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=Component Type
-ParameterUpdate2=1
-ParameterName3=ComponentLink1Description
-ParameterUpdate3=1
-ParameterName4=ComponentLink1URL
-ParameterUpdate4=1
-ParameterName5=Description
-ParameterUpdate5=1
-ParameterName6=Design Item ID
-ParameterUpdate6=1
-ParameterName7=LCSC Part Number
-ParameterUpdate7=1
-ParameterName8=Library Reference
-ParameterUpdate8=1
-ParameterName9=Manufacturer
-ParameterUpdate9=1
-ParameterName10=Package
-ParameterUpdate10=1
-ParameterName11=Pin Count
-ParameterUpdate11=1
-ParameterName12=Populate
-ParameterUpdate12=1
-ParameterName13=Power
-ParameterUpdate13=1
-ParameterName14=Source
-ParameterUpdate14=1
-ParameterName15=Temperature
-ParameterUpdate15=1
-ParameterName16=Temperature Coefficient
-ParameterUpdate16=1
-ParameterName17=Tolerance
-ParameterUpdate17=1
-ParameterName18=Value
-ParameterUpdate18=1
-ParameterName19=Working Voltage
-ParameterUpdate19=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=0402
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=0402 (Uniroyal) A
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=0402 (Uniroyal) B
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=0402 (Uniroyal) C
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=0603
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=0603 (Stackpole HMC) A
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=0603 (Stackpole HMC) B
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=0603 (Stackpole HMC) C
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=0603 (Uniroyal) A
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=0603 (Uniroyal) B
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=0603 (Uniroyal) C
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=0805
-ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
