@@ -112,6 +112,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+DocumentPath=Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=900
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NNAZDRRT
+
+[Document6]
 DocumentPath=Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=100
@@ -128,7 +145,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MKRWGKTG
 
-[Document6]
+[Document7]
 DocumentPath=Controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,23 +161,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document7]
-DocumentPath=Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=900
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNAZDRRT
 
 [Document8]
 DocumentPath=Bridge Regulator.SchDoc
@@ -265,6 +265,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CMNEGEKF
 
 [Document14]
+DocumentPath=USB-UART Converter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=16
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YJRTTMVF
+
+[Document15]
 DocumentPath=Illustrations 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -281,7 +298,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AQDPDGLM
 
-[Document15]
+[Document16]
 DocumentPath=Illustrations 2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -298,7 +315,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVGNTSPU
 
-[Document16]
+[Document17]
 DocumentPath=Simulation 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -315,7 +332,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAEIFOHN
 
-[Document17]
+[Document18]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -332,7 +349,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJBCCLRU
 
-[Document18]
+[Document19]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -349,8 +366,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=EEPROM.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=USB-UART Converter.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -371,7 +422,7 @@ UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
+VariationCount=14
 Variation1=Designator=R512|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
 Variation2=Designator=C545|UniqueId=\TQJUBNKZ|Kind=1|AlternatePart= 
 Variation3=Designator=C544|UniqueId=\YKVPJCHS|Kind=1|AlternatePart= 
@@ -384,6 +435,8 @@ Variation9=Designator=C516|UniqueId=\CLMVOWKV|Kind=1|AlternatePart=
 Variation10=Designator=C515|UniqueId=\OLAAYWOF|Kind=1|AlternatePart= 
 Variation11=Designator=C514|UniqueId=\RDAATDAR|Kind=1|AlternatePart= 
 Variation12=Designator=C508|UniqueId=\XXFLQPNC|Kind=1|AlternatePart= 
+Variation13=Designator=C300|UniqueId=\TLIHWCTV|Kind=1|AlternatePart= 
+Variation14=Designator=C301|UniqueId=\VEMEXZNO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -395,100 +448,100 @@ DocumentPath=Project Outputs for Photovoltaic Controller\Photovoltaic Controller
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
-
-[Parameter3]
-Name=Rev_No_3
-Value=-
-
-[Parameter4]
-Name=Rev_No_2
-Value=-
-
-[Parameter5]
-Name=Rev_No_1
-Value=-
-
-[Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
-
-[Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
-
-[Parameter8]
-Name=Rev_Desc_2
-Value=- - - - -
-
-[Parameter9]
-Name=Rev_Desc_1
-Value=- - - - -
-
-[Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
-
-[Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
-
-[Parameter12]
-Name=Rev_Date_2
-Value=--/--/----
-
-[Parameter13]
-Name=Rev_Date_1
-Value=--/--/----
-
-[Parameter14]
-Name=Project_Revision
-Value=v0.0
-
-[Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter16]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter17]
-Name=DwgTitleLine2
-Value=- - - - -
-
-[Parameter18]
-Name=DwgTitleLine1
-Value=- - - - -
-
-[Parameter19]
-Name=CPL_DOC
-Value=Pick & Place.csv
-
-[Parameter20]
-Name=Checker
-Value=[UNCHECKED]
-
-[Parameter21]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter22]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter23]
 Name=Approv_Date_Eng
 Value=--/--/----
 
-[Parameter24]
-Name=Approv_Date_Chk
+[Parameter3]
+Name=ASM_DOC
+Value=Assembley.PCBDwf
+
+[Parameter4]
+Name=BOM_DOC
+Value=Bill of Materials.csv
+
+[Parameter5]
+Name=Checker
+Value=[UNCHECKED]
+
+[Parameter6]
+Name=CPL_DOC
+Value=Pick & Place.csv
+
+[Parameter7]
+Name=DwgTitleLine1
+Value=- - - - -
+
+[Parameter8]
+Name=DwgTitleLine2
+Value=- - - - -
+
+[Parameter9]
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
+
+[Parameter10]
+Name=PCB_DOC
+Value=PCB.PcbDoc
+
+[Parameter11]
+Name=Project_Revision
+Value=v0.0
+
+[Parameter12]
+Name=Rev_Date_1
 Value=--/--/----
+
+[Parameter13]
+Name=Rev_Date_2
+Value=--/--/----
+
+[Parameter14]
+Name=Rev_Date_3
+Value=--/--/----
+
+[Parameter15]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter16]
+Name=Rev_Desc_1
+Value=- - - - -
+
+[Parameter17]
+Name=Rev_Desc_2
+Value=- - - - -
+
+[Parameter18]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter19]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter20]
+Name=Rev_No_1
+Value=-
+
+[Parameter21]
+Name=Rev_No_2
+Value=-
+
+[Parameter22]
+Name=Rev_No_3
+Value=-
+
+[Parameter23]
+Name=Rev_No_4
+Value=-
+
+[Parameter24]
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources
@@ -517,8 +570,8 @@ ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=1
-SCH_PrintColor=2
-PrintQuality=-3
+SCH_PrintColor=0
+PrintQuality=-4
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
 SCH_ShowProbes=-1
