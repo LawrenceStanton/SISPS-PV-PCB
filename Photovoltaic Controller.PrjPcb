@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=1
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -11,7 +11,7 @@ TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
@@ -47,7 +47,7 @@ PrefsRevisionGUID=
 DocumentPath=Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=1
+AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -112,6 +112,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+DocumentPath=Front.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IVTTAHQX
+
+[Document6]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=100
@@ -128,7 +145,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NNAZDRRT
 
-[Document6]
+[Document7]
 DocumentPath=Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=200
@@ -145,7 +162,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MKRWGKTG
 
-[Document7]
+[Document8]
 DocumentPath=Controller.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -162,7 +179,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=Bridge Regulator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=300
@@ -179,7 +196,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VOYTZFHN
 
-[Document9]
+[Document10]
 DocumentPath=Panel Mode Switch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=300
@@ -196,7 +213,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OUEHRAQU
 
-[Document10]
+[Document11]
 DocumentPath=Bias Regulators 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=500
@@ -213,7 +230,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDHAMSUP
 
-[Document11]
+[Document12]
 DocumentPath=Bias Regulators 2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=500
@@ -230,7 +247,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QZPTMOMV
 
-[Document12]
+[Document13]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -247,7 +264,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCRXUWER
 
-[Document13]
+[Document14]
 DocumentPath=EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -264,7 +281,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CMNEGEKF
 
-[Document14]
+[Document15]
+DocumentPath=Sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RPHUKVZG
+
+[Document16]
 DocumentPath=USB-UART Converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -281,7 +315,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YJRTTMVF
 
-[Document15]
+[Document17]
 DocumentPath=Illustrations 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -298,7 +332,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AQDPDGLM
 
-[Document16]
+[Document18]
 DocumentPath=Illustrations 2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -315,7 +349,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVGNTSPU
 
-[Document17]
+[Document19]
 DocumentPath=Simulation 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -332,24 +366,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAEIFOHN
 
-[Document18]
-DocumentPath=PCB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AJBCCLRU
-
-[Document19]
+[Document20]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -366,7 +383,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document21]
 DocumentPath=EEPROM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -383,7 +400,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=USB-UART Converter.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -400,8 +417,93 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=Connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document24]
+DocumentPath=Sensors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document25]
+DocumentPath=Mechanical.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XYCTAURL
+
+[Document26]
+DocumentPath=PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJBCCLRU
+
+[Document27]
+DocumentPath=Backplane.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ELVGXXYV
+
+[Document28]
+DocumentPath=Backplane.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -422,7 +524,7 @@ UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=15
 Variation1=Designator=R512|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
 Variation2=Designator=C545|UniqueId=\TQJUBNKZ|Kind=1|AlternatePart= 
 Variation3=Designator=C544|UniqueId=\YKVPJCHS|Kind=1|AlternatePart= 
@@ -437,6 +539,7 @@ Variation11=Designator=C514|UniqueId=\RDAATDAR|Kind=1|AlternatePart=
 Variation12=Designator=C508|UniqueId=\XXFLQPNC|Kind=1|AlternatePart= 
 Variation13=Designator=C300|UniqueId=\TLIHWCTV|Kind=1|AlternatePart= 
 Variation14=Designator=C301|UniqueId=\VEMEXZNO|Kind=1|AlternatePart= 
+Variation15=Designator=R408|UniqueId=\VLSAIZPT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -448,100 +551,104 @@ DocumentPath=Project Outputs for Photovoltaic Controller\Photovoltaic Controller
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=--/--/----
-
-[Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter5]
-Name=Checker
-Value=[UNCHECKED]
-
-[Parameter6]
-Name=CPL_DOC
-Value=Pick & Place.csv
-
-[Parameter7]
-Name=DwgTitleLine1
-Value=- - - - -
-
-[Parameter8]
-Name=DwgTitleLine2
-Value=- - - - -
-
-[Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter10]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter11]
-Name=Project_Revision
-Value=v0.0
-
-[Parameter12]
-Name=Rev_Date_1
-Value=--/--/----
-
-[Parameter13]
-Name=Rev_Date_2
-Value=--/--/----
-
-[Parameter14]
-Name=Rev_Date_3
-Value=--/--/----
-
-[Parameter15]
-Name=Rev_Date_4
-Value=--/--/----
-
-[Parameter16]
-Name=Rev_Desc_1
-Value=- - - - -
-
-[Parameter17]
-Name=Rev_Desc_2
-Value=- - - - -
-
-[Parameter18]
-Name=Rev_Desc_3
-Value=- - - - -
-
-[Parameter19]
-Name=Rev_Desc_4
-Value=- - - - -
-
-[Parameter20]
-Name=Rev_No_1
-Value=-
-
-[Parameter21]
-Name=Rev_No_2
-Value=-
-
-[Parameter22]
-Name=Rev_No_3
-Value=-
-
-[Parameter23]
 Name=Rev_No_4
 Value=-
 
+[Parameter3]
+Name=Rev_No_3
+Value=-
+
+[Parameter4]
+Name=Rev_No_2
+Value=-
+
+[Parameter5]
+Name=Rev_No_1
+Value=-
+
+[Parameter6]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter7]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter8]
+Name=Rev_Desc_2
+Value=- - - - -
+
+[Parameter9]
+Name=Rev_Desc_1
+Value=- - - - -
+
+[Parameter10]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter11]
+Name=Rev_Date_3
+Value=--/--/----
+
+[Parameter12]
+Name=Rev_Date_2
+Value=--/--/----
+
+[Parameter13]
+Name=Rev_Date_1
+Value=--/--/----
+
+[Parameter14]
+Name=Project_Revision
+Value=v0.0
+
+[Parameter15]
+Name=PCB_DOC
+Value=PCB.PcbDoc
+
+[Parameter16]
+Name=Licence
+Value=[NO LICENCE]
+
+[Parameter17]
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
+
+[Parameter18]
+Name=DwgTitleLine2
+Value=- - - - -
+
+[Parameter19]
+Name=DwgTitleLine1
+Value=- - - - -
+
+[Parameter20]
+Name=CPL_DOC
+Value=Pick & Place.csv
+
+[Parameter21]
+Name=Checker
+Value=[UNCHECKED]
+
+[Parameter22]
+Name=BOM_DOC
+Value=Bill of Materials.csv
+
+[Parameter23]
+Name=ASM_DOC
+Value=Assembley.PCBDwf
+
 [Parameter24]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Eng
+Value=--/--/----
+
+[Parameter25]
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
