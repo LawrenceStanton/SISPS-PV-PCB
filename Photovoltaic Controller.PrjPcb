@@ -543,10 +543,14 @@ Variation15=Designator=R408|UniqueId=\VLSAIZPT|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Simulation\PanelMode Enable.sdf
+DocumentPath=Project Outputs for Photovoltaic Controller\Design Rule Check - PCB.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Simulation\PanelMode Enable.sdf
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Photovoltaic Controller\Photovoltaic Controller.nsx
 DItemRevisionGUID=
 
@@ -705,6 +709,9 @@ ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analys
 
 [Generic_EDE]
 OutputDir=
+
+[Generic_CoDesigner Mechatronic Panel]
+LastAcknowledgment=2021-09-14T22:10:35.0000000Z
 
 [OutputGroup1]
 Name=Netlist Outputs
