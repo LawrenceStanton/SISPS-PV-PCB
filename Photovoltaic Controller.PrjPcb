@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=1
+HierarchyMode=2
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -555,104 +555,104 @@ DocumentPath=Project Outputs for Photovoltaic Controller\Photovoltaic Controller
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=--/--/----
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=-
 
 [Parameter5]
-Name=Checker
-Value=[UNCHECKED]
+Name=Rev_No_1
+Value=-
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick & Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
+Name=Rev_Desc_3
 Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
+Name=Rev_Desc_2
 Value=- - - - -
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=- - - - -
 
 [Parameter10]
-Name=Licence
-Value=[NO LICENCE]
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v0.0
+Name=Rev_Date_2
+Value=--/--/----
 
 [Parameter13]
 Name=Rev_Date_1
 Value=--/--/----
 
 [Parameter14]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Project_Revision
+Value=v0.0
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=[NO LICENCE]
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=- - - - -
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
+Name=DwgTitleLine2
 Value=- - - - -
 
 [Parameter19]
-Name=Rev_Desc_3
+Name=DwgTitleLine1
 Value=- - - - -
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick & Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=-
+Name=Checker
+Value=[UNCHECKED]
 
 [Parameter22]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=--/--/----
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
@@ -711,7 +711,7 @@ ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analys
 OutputDir=
 
 [Generic_CoDesigner Mechatronic Panel]
-LastAcknowledgment=2021-09-15T23:31:55.0000000Z
+LastAcknowledgment=2021-09-17T20:31:07.0000000Z
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -916,6 +916,18 @@ OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+Configuration2_Name3=General
+Configuration2_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=Document=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Document=Up|Designator=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType3=ReportHierarchy
 OutputName3=Report Project Hierarchy
 OutputDocumentPath3=
