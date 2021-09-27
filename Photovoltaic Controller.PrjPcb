@@ -541,7 +541,7 @@ UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=24
 Variation1=Designator=R512|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
 Variation2=Designator=C545|UniqueId=\TQJUBNKZ|Kind=1|AlternatePart= 
 Variation3=Designator=C544|UniqueId=\YKVPJCHS|Kind=1|AlternatePart= 
@@ -557,6 +557,15 @@ Variation12=Designator=C508|UniqueId=\XXFLQPNC|Kind=1|AlternatePart=
 Variation13=Designator=C300|UniqueId=\TLIHWCTV|Kind=1|AlternatePart= 
 Variation14=Designator=C301|UniqueId=\VEMEXZNO|Kind=1|AlternatePart= 
 Variation15=Designator=R408|UniqueId=\VLSAIZPT|Kind=1|AlternatePart= 
+Variation16=Designator=R200|UniqueId=\XQBFDPPQ\JPOGSICI\WNIAVAMB|Kind=1|AlternatePart= 
+Variation17=Designator=R202|UniqueId=\XQBFDPPQ\JPOGSICI\XXXQHXHV|Kind=1|AlternatePart= 
+Variation18=Designator=R?|UniqueId=\XQBFDPPQ\JPOGSICI\IPVYZQDH|Kind=1|AlternatePart= 
+Variation19=Designator=R?|UniqueId=\XQBFDPPQ\JPOGSICI\NIIOZDGB|Kind=1|AlternatePart= 
+Variation20=Designator=R328|UniqueId=\XQBFDPPQ\ZBKLHFBG\LYRKXPGY|Kind=1|AlternatePart= 
+Variation21=Designator=R329|UniqueId=\XQBFDPPQ\ZBKLHFBG\JIJHEWVQ|Kind=1|AlternatePart= 
+Variation22=Designator=R215|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
+Variation23=Designator=R216|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
+Variation24=Designator=R217|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
