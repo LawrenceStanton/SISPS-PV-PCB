@@ -1,1 +1,1 @@
-I2C=SCL,SDA
+RS485=D_N,D_P
