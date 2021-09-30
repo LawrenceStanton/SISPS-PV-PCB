@@ -1,0 +1,2 @@
+RS485=D_N,D_P
+UART=Rx,Tx
