@@ -575,7 +575,7 @@ UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
+VariationCount=25
 Variation1=Designator=R512|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
 Variation2=Designator=C545|UniqueId=\TQJUBNKZ|Kind=1|AlternatePart= 
 Variation3=Designator=C544|UniqueId=\YKVPJCHS|Kind=1|AlternatePart= 
@@ -600,6 +600,7 @@ Variation21=Designator=R329|UniqueId=\XQBFDPPQ\ZBKLHFBG\JIJHEWVQ|Kind=1|Alternat
 Variation22=Designator=R215|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
 Variation23=Designator=R216|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
 Variation24=Designator=R217|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
+Variation25=Designator=D300|UniqueId=\XQBFDPPQ\ZBKLHFBG\BHTMAQTT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -741,7 +742,7 @@ ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=1
-SCH_PrintColor=2
+SCH_PrintColor=0
 PrintQuality=-4
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
