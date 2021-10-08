@@ -248,6 +248,23 @@ GenerateClassCluster=0
 DocumentUniqueId=QZPTMOMV
 
 [Document13]
+DocumentPath=E-Fuse.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FSFRCBZV
+
+[Document14]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -264,7 +281,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCRXUWER
 
-[Document14]
+[Document15]
 DocumentPath=EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -281,7 +298,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CMNEGEKF
 
-[Document15]
+[Document16]
 DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -298,7 +315,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RPHUKVZG
 
-[Document16]
+[Document17]
 DocumentPath=USB-UART Converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -315,7 +332,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YJRTTMVF
 
-[Document17]
+[Document18]
 DocumentPath=Illustrations 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -332,7 +349,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AQDPDGLM
 
-[Document18]
+[Document19]
 DocumentPath=Illustrations 2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -349,7 +366,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVGNTSPU
 
-[Document19]
+[Document20]
 DocumentPath=Simulation 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -366,7 +383,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAEIFOHN
 
-[Document20]
+[Document21]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -383,7 +400,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=EEPROM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -400,7 +417,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=USB-UART Converter.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -417,7 +434,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document24]
 DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -434,7 +451,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document25]
 DocumentPath=Sensors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -451,7 +468,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document26]
 DocumentPath=Mechanical.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -468,7 +485,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XYCTAURL
 
-[Document26]
+[Document27]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -485,7 +502,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJBCCLRU
 
-[Document27]
+[Document28]
 DocumentPath=Backplane.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=100
@@ -502,7 +519,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELVGXXYV
 
-[Document28]
+[Document29]
 DocumentPath=Main.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -519,7 +536,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document30]
 DocumentPath=Backplane.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -536,7 +553,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document31]
 DocumentPath=RS485 Tranciever.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
@@ -553,7 +570,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBCDHHGF
 
-[Document31]
+[Document32]
 DocumentPath=RS485 Tranciever.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -616,104 +633,104 @@ DocumentPath=Project Outputs for Photovoltaic Controller\Photovoltaic Controller
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=--/--/----
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=-
 
 [Parameter5]
-Name=Checker
-Value=[UNCHECKED]
+Name=Rev_No_1
+Value=-
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick & Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
+Name=Rev_Desc_3
 Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
+Name=Rev_Desc_2
 Value=- - - - -
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=- - - - -
 
 [Parameter10]
-Name=Licence
-Value=[NO LICENCE]
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v0.0
+Name=Rev_Date_2
+Value=--/--/----
 
 [Parameter13]
 Name=Rev_Date_1
 Value=--/--/----
 
 [Parameter14]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Project_Revision
+Value=v0.0
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=[NO LICENCE]
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=- - - - -
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
+Name=DwgTitleLine2
 Value=- - - - -
 
 [Parameter19]
-Name=Rev_Desc_3
+Name=DwgTitleLine1
 Value=- - - - -
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick & Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=-
+Name=Checker
+Value=[UNCHECKED]
 
 [Parameter22]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=--/--/----
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
