@@ -589,35 +589,20 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
-Description=JLCPCB SMT Assembley
+Description=Full Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=25
-Variation1=Designator=R512|UniqueId=\BKMASJBQ|Kind=1|AlternatePart= 
-Variation2=Designator=C545|UniqueId=\TQJUBNKZ|Kind=1|AlternatePart= 
-Variation3=Designator=C544|UniqueId=\YKVPJCHS|Kind=1|AlternatePart= 
-Variation4=Designator=C543|UniqueId=\ERWWEVZZ|Kind=1|AlternatePart= 
-Variation5=Designator=C542|UniqueId=\UXXJFMIN|Kind=1|AlternatePart= 
-Variation6=Designator=C541|UniqueId=\OVSIQGPZ|Kind=1|AlternatePart= 
-Variation7=Designator=C518|UniqueId=\CBQPOIDW|Kind=1|AlternatePart= 
-Variation8=Designator=C517|UniqueId=\AFEEFUWM|Kind=1|AlternatePart= 
-Variation9=Designator=C516|UniqueId=\CLMVOWKV|Kind=1|AlternatePart= 
-Variation10=Designator=C515|UniqueId=\OLAAYWOF|Kind=1|AlternatePart= 
-Variation11=Designator=C514|UniqueId=\RDAATDAR|Kind=1|AlternatePart= 
-Variation12=Designator=C508|UniqueId=\XXFLQPNC|Kind=1|AlternatePart= 
-Variation13=Designator=C300|UniqueId=\TLIHWCTV|Kind=1|AlternatePart= 
-Variation14=Designator=C301|UniqueId=\VEMEXZNO|Kind=1|AlternatePart= 
-Variation15=Designator=R408|UniqueId=\VLSAIZPT|Kind=1|AlternatePart= 
-Variation16=Designator=R200|UniqueId=\XQBFDPPQ\JPOGSICI\WNIAVAMB|Kind=1|AlternatePart= 
-Variation17=Designator=R202|UniqueId=\XQBFDPPQ\JPOGSICI\XXXQHXHV|Kind=1|AlternatePart= 
-Variation18=Designator=R?|UniqueId=\XQBFDPPQ\JPOGSICI\IPVYZQDH|Kind=1|AlternatePart= 
-Variation19=Designator=R?|UniqueId=\XQBFDPPQ\JPOGSICI\NIIOZDGB|Kind=1|AlternatePart= 
-Variation20=Designator=R328|UniqueId=\XQBFDPPQ\ZBKLHFBG\LYRKXPGY|Kind=1|AlternatePart= 
-Variation21=Designator=R329|UniqueId=\XQBFDPPQ\ZBKLHFBG\JIJHEWVQ|Kind=1|AlternatePart= 
-Variation22=Designator=R215|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
-Variation23=Designator=R216|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
-Variation24=Designator=R217|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
-Variation25=Designator=D300|UniqueId=\XQBFDPPQ\ZBKLHFBG\BHTMAQTT|Kind=1|AlternatePart= 
+VariationCount=10
+Variation1=Designator=R212|UniqueId=\XQBFDPPQ\JPOGSICI\IPVYZQDH|Kind=1|AlternatePart= 
+Variation2=Designator=R214|UniqueId=\XQBFDPPQ\JPOGSICI\NIIOZDGB|Kind=1|AlternatePart= 
+Variation3=Designator=R300|UniqueId=\XQBFDPPQ\ZBKLHFBG\LYRKXPGY|Kind=1|AlternatePart= 
+Variation4=Designator=R301|UniqueId=\XQBFDPPQ\ZBKLHFBG\JIJHEWVQ|Kind=1|AlternatePart= 
+Variation5=Designator=D301|UniqueId=\XQBFDPPQ\ZBKLHFBG\LXOOTLLP|Kind=1|AlternatePart= 
+Variation6=Designator=D306|UniqueId=\XQBFDPPQ\ZBKLHFBG\KGBVESLQ|Kind=1|AlternatePart= 
+Variation7=Designator=D300|UniqueId=\XQBFDPPQ\ZBKLHFBG\BHTMAQTT|Kind=1|AlternatePart= 
+Variation8=Designator=C316|UniqueId=\XQBFDPPQ\ZBKLHFBG\BFZTYIHR\JLAFSNWC|Kind=1|AlternatePart= 
+Variation9=Designator=R400|UniqueId=\XQBFDPPQ\HUJFOYKF\VLSAIZPT|Kind=1|AlternatePart= 
+Variation10=Designator=H15|UniqueId=\XQBFDPPQ\TYAYSHFU\UZKISZSC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1603,8 +1588,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name Only
 ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-000038-3
-ComponentSymbolReference0=090611529
+ComponentDesignItemID0=CMP-016-000003-4
+ComponentSymbolReference0=TYPE-C-31-M-09
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1628,9 +1613,9 @@ ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
 ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=Contact Resistance
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Description
+ParameterName5=LCSC Part Number
 ParameterUpdate5=1
 ParameterName6=Library Reference
 ParameterUpdate6=1
@@ -1641,7 +1626,7 @@ ParameterUpdate8=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=090611529
+ModelName0=TYPE-C-31-M-09
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
