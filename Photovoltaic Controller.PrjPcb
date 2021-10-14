@@ -639,6 +639,28 @@ Variation9=Designator=R400|UniqueId=\XQBFDPPQ\HUJFOYKF\VLSAIZPT|Kind=1|Alternate
 Variation10=Designator=H15|UniqueId=\XQBFDPPQ\TYAYSHFU\UZKISZSC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[ProjectVariant2]
+UniqueID=6DD80802-924A-48D9-8C4E-9B67CB93FDEC
+Description=Automated Assembley
+AllowFabrication=0
+ParameterCount=0
+VariationCount=14
+Variation1=Designator=R212|UniqueId=\XQBFDPPQ\JPOGSICI\IPVYZQDH|Kind=1|AlternatePart= 
+Variation2=Designator=R214|UniqueId=\XQBFDPPQ\JPOGSICI\NIIOZDGB|Kind=1|AlternatePart= 
+Variation3=Designator=R300|UniqueId=\XQBFDPPQ\ZBKLHFBG\LYRKXPGY|Kind=1|AlternatePart= 
+Variation4=Designator=R301|UniqueId=\XQBFDPPQ\ZBKLHFBG\JIJHEWVQ|Kind=1|AlternatePart= 
+Variation5=Designator=D301|UniqueId=\XQBFDPPQ\ZBKLHFBG\LXOOTLLP|Kind=1|AlternatePart= 
+Variation6=Designator=D306|UniqueId=\XQBFDPPQ\ZBKLHFBG\KGBVESLQ|Kind=1|AlternatePart= 
+Variation7=Designator=D300|UniqueId=\XQBFDPPQ\ZBKLHFBG\BHTMAQTT|Kind=1|AlternatePart= 
+Variation8=Designator=C316|UniqueId=\XQBFDPPQ\ZBKLHFBG\BFZTYIHR\JLAFSNWC|Kind=1|AlternatePart= 
+Variation9=Designator=R400|UniqueId=\XQBFDPPQ\HUJFOYKF\VLSAIZPT|Kind=1|AlternatePart= 
+Variation10=Designator=H15|UniqueId=\XQBFDPPQ\TYAYSHFU\UZKISZSC|Kind=1|AlternatePart= 
+Variation11=Designator=J100|UniqueId=\XQBFDPPQ\EBRJRDPE\PZSJSVNK|Kind=1|AlternatePart= 
+Variation12=Designator=L300|UniqueId=\XQBFDPPQ\ZBKLHFBG\DUYYCUVF|Kind=1|AlternatePart= 
+Variation13=Designator=U500|UniqueId=\XQBFDPPQ\UEXDFSKE\DCGWEHOJ|Kind=1|AlternatePart= 
+Variation14=Designator=U503|UniqueId=\XQBFDPPQ\UEXDFSKE\UXIMVMDY|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Photovoltaic Controller\Design Rule Check - PCB.html
 DItemRevisionGUID=
