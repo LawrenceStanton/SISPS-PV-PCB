@@ -43,6 +43,9 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=3
+
 [Document1]
 DocumentPath=Main.SchDoc
 AnnotationEnabled=1
@@ -691,7 +694,7 @@ Value=Bill of Materials.csv
 
 [Parameter5]
 Name=Checker
-Value=[UNCHECKED]
+Value=JC PEAD
 
 [Parameter6]
 Name=CPL_DOC
@@ -699,11 +702,11 @@ Value=Pick & Place.csv
 
 [Parameter7]
 Name=DwgTitleLine1
-Value=- - - - -
+Value=SISPS-PV
 
 [Parameter8]
 Name=DwgTitleLine2
-Value=- - - - -
+Value=Photovoltaic MPPT Converter
 
 [Parameter9]
 Name=FAB_DOC
@@ -711,7 +714,7 @@ Value=Fabrication.PCBDwf
 
 [Parameter10]
 Name=Licence
-Value=[NO LICENCE]
+Value=CERN OHL v2W
 
 [Parameter11]
 Name=PCB_DOC
@@ -777,11 +780,59 @@ Value=Main.SchDoc
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=21AF403D-B2FA-4846-94C4-B6508123C60C
 Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=C660779D-019F-4003-8948-CDC8D50AACEA
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Fabrication.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly Full Assembley
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=620F2980-8C62-4A40-A5DB-DF3C4DEE8A4B
+Variant=Full Assembley
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembley.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly Automated Assembley
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=8981C8F5-8EFB-4BAF-8D99-331495604E65
+Variant=Automated Assembley
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembley.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=DD3DF1A0-A466-4432-A003-4F781EFD3B7D
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembley.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
