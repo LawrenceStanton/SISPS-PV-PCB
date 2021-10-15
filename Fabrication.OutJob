@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Fabrication.OutJob
 Description=
 TargetOutputMedium=Fabrication Files
 VariantName=[No Variations]
 VariantScope=2
-CurrentConfigurationName=Fabrication
+CurrentConfigurationName=
 TargetPrinter=HP Officejet Pro 6830
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -123,7 +123,7 @@ OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=1
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\PCB.PcbDoc
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\Public\Documents\Altium\Projects\PV Drive\PCB.PcbDoc
 OutputType8=NC Drill
 OutputName8=NC Drill Files
 OutputCategory8=Fabrication
@@ -227,7 +227,7 @@ PcbPrintPreferences15=
 [PublishSettings]
 OutputFilePath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\Output Jobs.PDF
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for SISPS-PV
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -252,9 +252,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\
+OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
 ReleaseManaged3=1
-OutputBasePath3=
+OutputBasePath3=Project Outputs for SISPS-PV
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -269,7 +269,7 @@ OpenOutput3=0
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\Output Jobs.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
