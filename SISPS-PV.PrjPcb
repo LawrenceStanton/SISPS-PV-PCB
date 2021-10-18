@@ -1135,7 +1135,7 @@ Value=Main.SchDoc
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=21AF403D-B2FA-4846-94C4-B6508123C60C
+ReleaseItemId=FC8CC5D2-C27C-4952-A0BB-59686484A0B0
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -1147,7 +1147,7 @@ ConfigurationType=Source
 Name=Fabrication
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=C660779D-019F-4003-8948-CDC8D50AACEA
+ReleaseItemId=F76231AD-6B57-4904-9485-2A8CD2CA8B24
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -1159,7 +1159,7 @@ ConfigurationType=Fabrication
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=DD3DF1A0-A466-4432-A003-4F781EFD3B7D
+ReleaseItemId=1EE3F345-F765-4E76-97AC-08E6FE02BF52
 Variant=[No Variations]
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -1171,7 +1171,7 @@ ConfigurationType=Assembly
 Name=Assembly Fully Populated
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=7F602ED8-0E19-4244-9400-E33A5C156352
 Variant=Fully Populated
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -1183,7 +1183,7 @@ ConfigurationType=Assembly
 Name=Assembly PCBWay Automated Assembley
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=CE814C5C-17B9-4EB4-B87E-E3E7CA3CE173
 Variant=PCBWay Automated Assembley
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -1195,7 +1195,7 @@ ConfigurationType=Assembly
 Name=Assembly PCBWay Hand Assembley
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=
+ReleaseItemId=AE5CF2DD-27CE-4039-8128-3A7404F3C541
 Variant=PCBWay Hand Assembley
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
@@ -2057,6 +2057,17 @@ NetClassAutoNamedHarnessEnabled=1
 NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=1
@@ -2110,15 +2121,4 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
