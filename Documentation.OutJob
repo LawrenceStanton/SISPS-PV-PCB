@@ -19,8 +19,8 @@ Name=Output Jobs.OutJob
 Description=
 TargetOutputMedium=Documentation
 VariantName=[No Variations]
-VariantScope=1
-CurrentConfigurationName=
+VariantScope=2
+CurrentConfigurationName=Sources
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -198,17 +198,17 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 PcbPrintPreferences15=
 
 [PublishSettings]
-OutputFilePath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\.PDF
+OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Photovoltaic Controller
+OutputBasePath2=
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=Output Jobs.PDF
+OutputFileName2=Documentation
 OutputFileNameMulti2=
-UseOutputNameForMulti2=1
+UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
@@ -227,6 +227,6 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\.PDF
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 OpenOutputs2=1
 

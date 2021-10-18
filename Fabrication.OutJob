@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Fabrication.OutJob
+Name=
 Description=
-TargetOutputMedium=Fabrication Files
+TargetOutputMedium=Fabrication
 VariantName=[No Variations]
 VariantScope=2
-CurrentConfigurationName=
-TargetPrinter=HP Officejet Pro 6830
+CurrentConfigurationName=Fabrication
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -59,7 +59,7 @@ OutputName3=Fabrication Drawings
 OutputCategory3=Documentation
 OutputDocumentPath3=Fabrication.PCBDwf
 OutputVariantName3=
-OutputEnabled3=0
+OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=1
 OutputEnabled3_OutputMedium3=0
@@ -117,7 +117,7 @@ OutputName7=Gerber Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=1
@@ -129,7 +129,7 @@ OutputName8=NC Drill Files
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
 OutputEnabled8_OutputMedium3=2
@@ -225,17 +225,17 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 PcbPrintPreferences15=
 
 [PublishSettings]
-OutputFilePath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\Output Jobs.PDF
+OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for SISPS-PV
+OutputBasePath2=
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=Output Jobs.PDF
+OutputFileName2=Fabrication Drawing
 OutputFileNameMulti2=
-UseOutputNameForMulti2=1
+UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=0
 PromptOverwrite2=0
@@ -254,7 +254,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for SISPS-PV
+OutputBasePath3=
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -267,7 +267,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\Output Jobs.PDF
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 OpenOutputs2=0
 RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
 OpenOutputs3=0
