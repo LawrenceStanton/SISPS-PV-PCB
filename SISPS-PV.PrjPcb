@@ -1140,7 +1140,9 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=21AF403D-B2FA-4846-94C4-B6508123C60C
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Documentation.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
