@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=
 Description=
-TargetOutputMedium=Assembley Files
+TargetOutputMedium=Assembley
 VariantName=[No Variations]
 VariantScope=2
 CurrentConfigurationName=Assembly
-TargetPrinter=HP Officejet Pro 6830
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,7 +36,7 @@ OutputName1=Assembley Drawings
 OutputCategory1=Documentation
 OutputDocumentPath1=Assembley.PCBDwf
 OutputVariantName1=
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -47,7 +47,7 @@ OutputName2=Pick and Place
 OutputCategory2=Assembly
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=1
@@ -70,7 +70,7 @@ OutputName4=Bill of Materials
 OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=2
@@ -225,7 +225,7 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 PcbPrintPreferences15=
 
 [PublishSettings]
-OutputFilePath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\.PDF
+OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 ReleaseManaged2=1
 OutputBasePath2=
 OutputPathMedia2=
@@ -233,9 +233,9 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=Output Jobs.PDF
+OutputFileName2=Assembley Drawing
 OutputFileNameMulti2=
-UseOutputNameForMulti2=1
+UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=1
 PromptOverwrite2=1
@@ -267,7 +267,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\.PDF
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
 OpenOutputs2=1
 RelativeOutputPath3=C:\ProgramData\Altium\Altium Designer {C47435BC-CF37-4030-A2E3-BDEDDEB6FEEC}\VaultEditCache\3620B0D0-9572-4C24-8F7B-D60F9E4F4ECD\Released\Project Outputs for PRJT-0003-1\
 OpenOutputs3=0
