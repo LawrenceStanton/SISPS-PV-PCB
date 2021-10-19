@@ -676,7 +676,7 @@ UniqueID=6F8139DF-6C61-4198-9FFC-73B883B2DB70
 Description=PCBWay Hand Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=340
+VariationCount=370
 Variation1=Designator=H15|UniqueId=\XQBFDPPQ\TYAYSHFU\UZKISZSC|Kind=1|AlternatePart= 
 Variation2=Designator=R400|UniqueId=\XQBFDPPQ\HUJFOYKF\VLSAIZPT|Kind=1|AlternatePart= 
 Variation3=Designator=R214|UniqueId=\XQBFDPPQ\JPOGSICI\NIIOZDGB|Kind=1|AlternatePart= 
@@ -1017,6 +1017,36 @@ Variation337=Designator=Q502|UniqueId=\XQBFDPPQ\KYFGBYSD\JFPXXCGW|Kind=1|Alterna
 Variation338=Designator=Q504|UniqueId=\XQBFDPPQ\KYFGBYSD\RWNVXELD|Kind=1|AlternatePart= 
 Variation339=Designator=R207|UniqueId=\XQBFDPPQ\JPOGSICI\AHFTWMJQ|Kind=1|AlternatePart= 
 Variation340=Designator=R204|UniqueId=\XQBFDPPQ\JPOGSICI\AMFAYXQH|Kind=1|AlternatePart= 
+Variation341=Designator=C104|UniqueId=\XQBFDPPQ\MNNMACXD\WTKKWRKS|Kind=1|AlternatePart= 
+Variation342=Designator=C106|UniqueId=\XQBFDPPQ\MNNMACXD\FAYCZCXE|Kind=1|AlternatePart= 
+Variation343=Designator=D101|UniqueId=\XQBFDPPQ\MNNMACXD\SWPWSUNX|Kind=1|AlternatePart= 
+Variation344=Designator=R203|UniqueId=\XQBFDPPQ\JPOGSICI\FMKQDEYV|Kind=1|AlternatePart= 
+Variation345=Designator=C302|UniqueId=\XQBFDPPQ\ZBKLHFBG\MRTWVXZP|Kind=1|AlternatePart= 
+Variation346=Designator=C303|UniqueId=\XQBFDPPQ\ZBKLHFBG\FQTXAQMM|Kind=1|AlternatePart= 
+Variation347=Designator=C304|UniqueId=\XQBFDPPQ\ZBKLHFBG\TWOOZKKT|Kind=1|AlternatePart= 
+Variation348=Designator=D304|UniqueId=\XQBFDPPQ\ZBKLHFBG\HEVSHFAS|Kind=1|AlternatePart= 
+Variation349=Designator=Q300|UniqueId=\XQBFDPPQ\ZBKLHFBG\ERPLXVWN|Kind=1|AlternatePart= 
+Variation350=Designator=D307|UniqueId=\XQBFDPPQ\ZBKLHFBG\QLYRXVRU|Kind=1|AlternatePart= 
+Variation351=Designator=D308|UniqueId=\XQBFDPPQ\ZBKLHFBG\CJMKJQVH|Kind=1|AlternatePart= 
+Variation352=Designator=D303|UniqueId=\XQBFDPPQ\ZBKLHFBG\QLOFELPH|Kind=1|AlternatePart= 
+Variation353=Designator=Q301|UniqueId=\XQBFDPPQ\ZBKLHFBG\RQGTTXJD|Kind=1|AlternatePart= 
+Variation354=Designator=Q303|UniqueId=\XQBFDPPQ\ZBKLHFBG\RCYXLCZT|Kind=1|AlternatePart= 
+Variation355=Designator=Q302|UniqueId=\XQBFDPPQ\ZBKLHFBG\WALZIMHF|Kind=1|AlternatePart= 
+Variation356=Designator=Q304|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\EZETNTMF|Kind=1|AlternatePart= 
+Variation357=Designator=Q305|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\FCOICVAL|Kind=1|AlternatePart= 
+Variation358=Designator=U500|UniqueId=\XQBFDPPQ\UEXDFSKE\NFIZFVAR|Kind=1|AlternatePart= 
+Variation359=Designator=U503|UniqueId=\XQBFDPPQ\UEXDFSKE\CZZIZIJY|Kind=1|AlternatePart= 
+Variation360=Designator=U505|UniqueId=\XQBFDPPQ\UEXDFSKE\IVMLCOMF|Kind=1|AlternatePart= 
+Variation361=Designator=R503|UniqueId=\XQBFDPPQ\UEXDFSKE\EKYCUAHJ|Kind=1|AlternatePart= 
+Variation362=Designator=U300|UniqueId=\XQBFDPPQ\ZBKLHFBG\BFZTYIHR\XYGEBJCB|Kind=1|AlternatePart= 
+Variation363=Designator=DS402|UniqueId=\XQBFDPPQ\HUJFOYKF\FGCXYMHC|Kind=1|AlternatePart= 
+Variation364=Designator=DS403|UniqueId=\XQBFDPPQ\HUJFOYKF\JIYABAZQ|Kind=1|AlternatePart= 
+Variation365=Designator=DS404|UniqueId=\XQBFDPPQ\HUJFOYKF\NWVLBWFY|Kind=1|AlternatePart= 
+Variation366=Designator=Q400|UniqueId=\XQBFDPPQ\NLAMIRGH\YOFEHUSZ|Kind=1|AlternatePart= 
+Variation367=Designator=Q401|UniqueId=\XQBFDPPQ\NLAMIRGH\SRWKYSEX|Kind=1|AlternatePart= 
+Variation368=Designator=DS400|UniqueId=\XQBFDPPQ\NLAMIRGH\WYIGYDBS|Kind=1|AlternatePart= 
+Variation369=Designator=DS401|UniqueId=\XQBFDPPQ\NLAMIRGH\BONKIWQX|Kind=1|AlternatePart= 
+Variation370=Designator=D100|UniqueId=\XQBFDPPQ\EBRJRDPE\DPOUSNOM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1024,104 +1054,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=18/10/2021
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=v1.1
 
 [Parameter5]
-Name=Checker
-Value=JC PEAD
+Name=Rev_No_1
+Value=v1.0
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick & Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
-Value=SISPS-PV
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
+Name=Rev_Desc_2
+Value=Adjustments to BOM
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=Initial Prototype
 
 [Parameter10]
-Name=Licence
-Value=CERN OHL v2 W
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v1.0
+Name=Rev_Date_2
+Value=19/10/2021
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Rev_Date_2
-Value=--/--/----
+Name=Project_Revision
+Value=v1.1
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 W
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
-Value=- - - - -
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter19]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick & Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC PEAD
 
 [Parameter22]
-Name=Rev_No_2
-Value=-
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=19/10/2021
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
