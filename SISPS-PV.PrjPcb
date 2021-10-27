@@ -690,104 +690,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=27/10/2021
 
 [Parameter3]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter4]
-Name=Rev_No_2
-Value=v1.2
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter5]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC PEAD
 
 [Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick & Place.csv
 
 [Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter8]
-Name=Rev_Desc_2
-Value=Change to JLCPCB
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter9]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 W
 
 [Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter12]
-Name=Rev_Date_2
-Value=27/10/2021
+Name=Project_Revision
+Value=v1.2
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Project_Revision
-Value=v1.2
-
-[Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter16]
-Name=Licence
-Value=CERN OHL v2 W
-
-[Parameter17]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter18]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
-
-[Parameter19]
-Name=DwgTitleLine1
-Value=SISPS-PV
-
-[Parameter20]
-Name=CPL_DOC
-Value=Pick & Place.csv
-
-[Parameter21]
-Name=Checker
-Value=JC PEAD
-
-[Parameter22]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter23]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter24]
-Name=Approv_Date_Eng
+Name=Rev_Date_2
 Value=27/10/2021
 
-[Parameter25]
-Name=Approv_Date_Chk
+[Parameter15]
+Name=Rev_Date_3
 Value=--/--/----
+
+[Parameter16]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter17]
+Name=Rev_Desc_1
+Value=Initial Prototype
+
+[Parameter18]
+Name=Rev_Desc_2
+Value=Change to JLCPCB
+
+[Parameter19]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter20]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter21]
+Name=Rev_No_1
+Value=v1.0
+
+[Parameter22]
+Name=Rev_No_2
+Value=v1.2
+
+[Parameter23]
+Name=Rev_No_3
+Value=-
+
+[Parameter24]
+Name=Rev_No_4
+Value=-
+
+[Parameter25]
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources
@@ -838,23 +838,11 @@ ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 
 [Configuration5]
-Name=Assembly PCBWay Automated Assembley
+Name=Assembly JLCPCB SMT Assembley
 ParameterCount=0
 ConstraintFileCount=0
-ReleaseItemId=CE814C5C-17B9-4EB4-B87E-E3E7CA3CE173
-Variant=PCBWay Automated Assembley
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembley.OutJob
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-
-[Configuration6]
-Name=Assembly PCBWay Hand Assembley
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=AE5CF2DD-27CE-4039-8128-3A7404F3C541
-Variant=PCBWay Hand Assembley
+ReleaseItemId=707CF692-8E0F-4BA0-855F-608BE8113853
+Variant=JLCPCB SMT Assembley
 OutputJobsCount=1
 DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembley.OutJob
