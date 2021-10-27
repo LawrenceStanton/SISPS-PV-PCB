@@ -929,7 +929,7 @@ OutputDefault2=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Officejet Pro 6830
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -1315,36 +1315,21 @@ Name=Export Outputs
 Description=
 TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=ExportPARASOLID
-OutputName1=Export PARASOLID
+OutputType1=Save As/Export PCB
+OutputName1=Save As/Export PCB
 OutputDocumentPath1=
-OutputVariantName1=[No Variations]
+OutputVariantName1=
 OutputDefault1=0
-OutputType2=ExportSTEP
-OutputName2=Export STEP
+OutputType2=Save As/Export Schematic
+OutputName2=Save As/Export Schematic
 OutputDocumentPath2=
-OutputVariantName2=[No Variations]
+OutputVariantName2=
 OutputDefault2=0
-OutputType3=ExportVRML
-OutputName3=Export VRML
+OutputType3=Specctra Design PCB
+OutputName3=Specctra Design PCB
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-OutputType4=Save As/Export PCB
-OutputName4=Save As/Export PCB
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-OutputType5=Save As/Export Schematic
-OutputName5=Save As/Export Schematic
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-OutputType6=Specctra Design PCB
-OutputName6=Specctra Design PCB
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
