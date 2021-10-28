@@ -657,7 +657,7 @@ UniqueID=E4FDD9B6-714D-41E3-97F8-91ED8B610A74
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=25
+VariationCount=32
 Variation1=Designator=R200|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
 Variation2=Designator=R202|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
 Variation3=Designator=R201|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
@@ -674,15 +674,22 @@ Variation13=Designator=H1|UniqueId=\XQBFDPPQ\TYAYSHFU\UZKISZSC|Kind=1|AlternateP
 Variation14=Designator=J102|UniqueId=\XQBFDPPQ\MNNMACXD\ZTVMYAFQ|Kind=1|AlternatePart= 
 Variation15=Designator=J100|UniqueId=\XQBFDPPQ\EBRJRDPE\PZSJSVNK|Kind=1|AlternatePart= 
 Variation16=Designator=U201|UniqueId=\XQBFDPPQ\JPOGSICI\SCSQHLLS|Kind=1|AlternatePart= 
-Variation17=Designator=Q302|UniqueId=\XQBFDPPQ\ZBKLHFBG\WALZIMHF|Kind=0|AlternatePart= 
-Variation18=Designator=Q300|UniqueId=\XQBFDPPQ\ZBKLHFBG\ERPLXVWN|Kind=0|AlternatePart= 
-Variation19=Designator=Q301|UniqueId=\XQBFDPPQ\ZBKLHFBG\RQGTTXJD|Kind=0|AlternatePart= 
-Variation20=Designator=Q303|UniqueId=\XQBFDPPQ\ZBKLHFBG\RCYXLCZT|Kind=0|AlternatePart= 
+Variation17=Designator=Q302|UniqueId=\XQBFDPPQ\ZBKLHFBG\WALZIMHF|Kind=1|AlternatePart= 
+Variation18=Designator=Q300|UniqueId=\XQBFDPPQ\ZBKLHFBG\ERPLXVWN|Kind=1|AlternatePart= 
+Variation19=Designator=Q301|UniqueId=\XQBFDPPQ\ZBKLHFBG\RQGTTXJD|Kind=1|AlternatePart= 
+Variation20=Designator=Q303|UniqueId=\XQBFDPPQ\ZBKLHFBG\RCYXLCZT|Kind=1|AlternatePart= 
 Variation21=Designator=U301|UniqueId=\XQBFDPPQ\ZBKLHFBG\BFZTYIHR\XYGEBJCB|Kind=1|AlternatePart= 
 Variation22=Designator=R429|UniqueId=\XQBFDPPQ\NLAMIRGH\VKYXOFQM|Kind=1|AlternatePart= 
 Variation23=Designator=C420|UniqueId=\XQBFDPPQ\NLAMIRGH\CLVVVXPW|Kind=1|AlternatePart= 
 Variation24=Designator=R427|UniqueId=\XQBFDPPQ\NLAMIRGH\IHCEFRIN|Kind=1|AlternatePart= 
 Variation25=Designator=C419|UniqueId=\XQBFDPPQ\NLAMIRGH\RARJNAFC|Kind=1|AlternatePart= 
+Variation26=Designator=L300|UniqueId=\XQBFDPPQ\ZBKLHFBG\DUYYCUVF|Kind=1|AlternatePart= 
+Variation27=Designator=L100|UniqueId=\XQBFDPPQ\MNNMACXD\JTLHVTRC|Kind=1|AlternatePart= 
+Variation28=Designator=U500|UniqueId=\XQBFDPPQ\UEXDFSKE\PFPEDOFG|Kind=1|AlternatePart= 
+Variation29=Designator=U503|UniqueId=\XQBFDPPQ\UEXDFSKE\SWZQZLUF|Kind=1|AlternatePart= 
+Variation30=Designator=Q304|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\EZETNTMF|Kind=1|AlternatePart= 
+Variation31=Designator=Q305|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\FCOICVAL|Kind=1|AlternatePart= 
+Variation32=Designator=U405|UniqueId=\XQBFDPPQ\NLAMIRGH\UYOKYNGU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -901,7 +908,7 @@ LastAcknowledgment=2021-10-21T08:56:52.0000000Z
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -917,7 +924,7 @@ OutputDefault2=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -994,7 +1001,7 @@ Configuration9_Item1=Record=SimViewPrintView|PlotsPerPage=-1|PrintAllPlots=True|
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -1016,7 +1023,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -1088,7 +1095,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1149,7 +1156,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1257,7 +1264,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -1301,7 +1308,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Save As/Export PCB
 OutputName1=Save As/Export PCB
@@ -1322,7 +1329,7 @@ OutputDefault3=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Print to PDF (Mac Desktop)
+TargetPrinter=HP LaserJet Professional P 1102w
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1695,40 +1702,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name Only
 ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-000041-4
-ComponentSymbolReference0=STEF12H60
+ComponentDesignItemID0=CMP-000025-2
+ComponentSymbolReference0=MCP7541
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name Only
 ComponentLibraryIdentifier1=University of Cape Town
-ComponentDesignItemID1=CMP-00026-00001-1
-ComponentSymbolReference1=TLP2345
+ComponentDesignItemID1=CMP-000025-3
+ComponentSymbolReference1=MCP7541
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name Only
-ComponentLibraryIdentifier2=University of Cape Town
-ComponentDesignItemID2=CMP-013-00000-1
-ComponentSymbolReference2=N Channel Transistor T0-252
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name Only
-ComponentLibraryIdentifier3=University of Cape Town
-ComponentDesignItemID3=CMP-019-00000-4
-ComponentSymbolReference3=IN-MPPT-SM72442-IL28
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name Only
-ComponentLibraryIdentifier4=University of Cape Town
-ComponentDesignItemID4=CMP-022-000007-2
-ComponentSymbolReference4=BAT54
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name Only
-ComponentLibraryIdentifier5=University of Cape Town
-ComponentDesignItemID5=CMP-040-000008-2
-ComponentSymbolReference5=P Channel MOSFET TO-263
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1742,146 +1725,61 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Case/Package
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
-ParameterName3=ComponentLink1Description
+ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=ComponentLink1URL
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Continuous Drain Current
+ParameterName5=Hysteresis
 ParameterUpdate5=1
-ParameterName6=Continuous Drain Current (ID)
+ParameterName6=Input Bias Current
 ParameterUpdate6=1
-ParameterName7=Description
+ParameterName7=Input Offset Voltage (Vos)
 ParameterUpdate7=1
-ParameterName8=Design Item ID
+ParameterName8=LCSC Part Number
 ParameterUpdate8=1
-ParameterName9=Drain Source Resistance
+ParameterName9=Library Reference
 ParameterUpdate9=1
-ParameterName10=Drain to Source Resistance
+ParameterName10=Max Operating Temperature
 ParameterUpdate10=1
-ParameterName11=Forward Current
+ParameterName11=Max Supply Voltage
 ParameterUpdate11=1
-ParameterName12=Forward Voltage
+ParameterName12=Min Operating Temperature
 ParameterUpdate12=1
-ParameterName13=Gate to Source Voltage (Vgs)
+ParameterName13=Min Supply Voltage
 ParameterUpdate13=1
-ParameterName14=Height
+ParameterName14=Nominal Supply Current
 ParameterUpdate14=1
-ParameterName15=Input Capacitance
+ParameterName15=Output Current
 ParameterUpdate15=1
-ParameterName16=Input Current
+ParameterName16=Output Type
 ParameterUpdate16=1
-ParameterName17=Isolation Voltage
+ParameterName17=Package
 ParameterUpdate17=1
-ParameterName18=LCSC Part Number
+ParameterName18=Placement
 ParameterUpdate18=1
-ParameterName19=Library Reference
+ParameterName19=Propagation Delay
 ParameterUpdate19=1
-ParameterName20=Manufacturer
+ParameterName20=Quiescent Current
 ParameterUpdate20=1
-ParameterName21=Max Input Voltage
+ParameterName21=RoHS
 ParameterUpdate21=1
-ParameterName22=Max Operating Temperature
-ParameterUpdate22=1
-ParameterName23=Max Power Dissipation
-ParameterUpdate23=1
-ParameterName24=Max Supply Voltage
-ParameterUpdate24=1
-ParameterName25=Maximum Drain Source Voltage
-ParameterUpdate25=1
-ParameterName26=Min Input Voltage
-ParameterUpdate26=1
-ParameterName27=Min Operating Temperature
-ParameterUpdate27=1
-ParameterName28=Min Supply Voltage
-ParameterUpdate28=1
-ParameterName29=Output Current
-ParameterUpdate29=1
-ParameterName30=Package
-ParameterUpdate30=1
-ParameterName31=Placement
-ParameterUpdate31=1
-ParameterName32=Polarity
-ParameterUpdate32=1
-ParameterName33=Power Dissipation
-ParameterUpdate33=1
-ParameterName34=Propagation Delay
-ParameterUpdate34=1
-ParameterName35=Rds On Max
-ParameterUpdate35=1
-ParameterName36=Reverse Voltage
-ParameterUpdate36=1
-ParameterName37=RoHS
-ParameterUpdate37=1
-ParameterName38=RoHS Compliant
-ParameterUpdate38=1
-ParameterName39=Source
-ParameterUpdate39=1
-ParameterName40=Supply Current
-ParameterUpdate40=1
-ParameterName41=Threshold Voltage
-ParameterUpdate41=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=D2PAC (IRF5210) A
+ModelName0=SOT-23-5 (MCP754x) A
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=D2PAC (IRF5210) B
+ModelName1=SOT-23-5 (MCP754x) C
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=D2PAC (IRF5210) C
+ModelName2=SOT-23-5 (MCP75x) B
 ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=PW0028A_L
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=PW0028A_M
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=PW0028A_N
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=QFN32 (STEF12H60) A
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=QFN32 (STEF12H60) B
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=QFN32 (STEF12H60) C
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=SO-5 (TCPL23) C
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=SO-5 (TLP23) A
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=SO-5 (TLP23) B
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=SOT-23-3 (LBAT54C) A
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=SOT-23-3 (LBAT54C) B
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=SOT-23-3 (LBAT54C) C
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=TO-252A (IRFR3607) A
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=TO-252A (IRFR3607) B
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=TO-252A (IRFR3607) C
-ModelUpdate17=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
