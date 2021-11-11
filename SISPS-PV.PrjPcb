@@ -672,7 +672,7 @@ UniqueID=E4FDD9B6-714D-41E3-97F8-91ED8B610A74
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=39
+VariationCount=41
 Variation1=Designator=R200|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
 Variation2=Designator=R202|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
 Variation3=Designator=R201|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
@@ -712,6 +712,8 @@ Variation36=Designator=U408|UniqueId=\XQBFDPPQ\HUJFOYKF\YDGHXHII\DOVDQWSM|Kind=1
 Variation37=Designator=U410|UniqueId=\XQBFDPPQ\HUJFOYKF\YDGHXHII\FOZUFGQV|Kind=1|AlternatePart= 
 Variation38=Designator=U409|UniqueId=\XQBFDPPQ\HUJFOYKF\YDGHXHII\UYEQMPHH|Kind=1|AlternatePart= 
 Variation39=Designator=U402|UniqueId=\XQBFDPPQ\HUJFOYKF\JLHDIDNO|Kind=1|AlternatePart= 
+Variation40=Designator=Q304|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\ATEUPSHR|Kind=1|AlternatePart= 
+Variation41=Designator=Q305|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\HKKBZAAH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
