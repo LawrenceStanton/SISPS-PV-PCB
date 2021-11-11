@@ -19,7 +19,7 @@ Name=Output Jobs.OutJob
 Description=
 TargetOutputMedium=Documentation
 VariantName=[No Variations]
-VariantScope=2
+VariantScope=1
 CurrentConfigurationName=Sources
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
