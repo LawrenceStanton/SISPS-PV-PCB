@@ -1055,104 +1055,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=27/10/2021
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=v1.2
 
 [Parameter5]
-Name=Checker
-Value=JC PEAD
+Name=Rev_No_1
+Value=v1.0
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
-Value=SISPS-PV
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
+Name=Rev_Desc_2
+Value=Change to JLCPCB
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=Initial Prototype
 
 [Parameter10]
-Name=Licence
-Value=CERN OHL v2 W
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v1.2
+Name=Rev_Date_2
+Value=27/10/2021
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Rev_Date_2
-Value=27/10/2021
+Name=Project_Revision
+Value=v2.0
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 W
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
-Value=Change to JLCPCB
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter19]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC PEAD
 
 [Parameter22]
-Name=Rev_No_2
-Value=v1.2
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=27/10/2021
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
@@ -1243,7 +1243,7 @@ ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
-SCH_PrintColor=0
+SCH_PrintColor=2
 PrintQuality=-4
 SCH_ShowNoErc=-1
 SCH_ShowParameter=-1
@@ -1278,7 +1278,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -1294,7 +1294,7 @@ OutputDefault2=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -1405,7 +1405,7 @@ Configuration9_Item1=Record=SimViewPrintView|PlotsPerPage=-1|PrintAllPlots=True|
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -1427,7 +1427,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -1499,7 +1499,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -1560,7 +1560,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1668,7 +1668,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -1712,7 +1712,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Save As/Export PCB
 OutputName1=Save As/Export PCB
@@ -1733,7 +1733,7 @@ OutputDefault3=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet Professional P 1102w
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -2106,14 +2106,14 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name Only
 ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-000025-2
-ComponentSymbolReference0=MCP7541
+ComponentDesignItemID0=CMP-008-000011-3
+ComponentSymbolReference0=LP2985
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name Only
 ComponentLibraryIdentifier1=University of Cape Town
-ComponentDesignItemID1=CMP-000025-3
-ComponentSymbolReference1=MCP7541
+ComponentDesignItemID1=CMP-051-000054-4
+ComponentSymbolReference1=STM32G070CBT6
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 FullReplace=1
@@ -2129,61 +2129,78 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Accuracy
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Case/Package
 ParameterUpdate1=1
-ParameterName2=ComponentLink1Description
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=ComponentLink1URL
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=ComponentLink1Description
 ParameterUpdate4=1
-ParameterName5=Hysteresis
+ParameterName5=ComponentLink1URL
 ParameterUpdate5=1
-ParameterName6=Input Bias Current
+ParameterName6=ComponentLink2Description
 ParameterUpdate6=1
-ParameterName7=Input Offset Voltage (Vos)
+ParameterName7=ComponentLink2URL
 ParameterUpdate7=1
-ParameterName8=LCSC Part Number
+ParameterName8=ComponentLink3Description
 ParameterUpdate8=1
-ParameterName9=Library Reference
+ParameterName9=ComponentLink3URL
 ParameterUpdate9=1
-ParameterName10=Max Operating Temperature
+ParameterName10=Description
 ParameterUpdate10=1
-ParameterName11=Max Supply Voltage
+ParameterName11=Dropout Voltage
 ParameterUpdate11=1
-ParameterName12=Min Operating Temperature
+ParameterName12=LCSC Part Number
 ParameterUpdate12=1
-ParameterName13=Min Supply Voltage
+ParameterName13=Library Reference
 ParameterUpdate13=1
-ParameterName14=Nominal Supply Current
+ParameterName14=Manufacturer
 ParameterUpdate14=1
-ParameterName15=Output Current
+ParameterName15=Max Input Voltage
 ParameterUpdate15=1
-ParameterName16=Output Type
+ParameterName16=Max Operating Temperature
 ParameterUpdate16=1
-ParameterName17=Package
+ParameterName17=Max Output Current
 ParameterUpdate17=1
-ParameterName18=Placement
+ParameterName18=Max Output Voltage
 ParameterUpdate18=1
-ParameterName19=Propagation Delay
+ParameterName19=Max Supply Voltage
 ParameterUpdate19=1
-ParameterName20=Quiescent Current
+ParameterName20=Min Input Voltage
 ParameterUpdate20=1
-ParameterName21=RoHS
+ParameterName21=Min Operating Temperature
 ParameterUpdate21=1
+ParameterName22=Output Voltage
+ParameterUpdate22=1
+ParameterName23=Placement
+ParameterUpdate23=1
+ParameterName24=Quiescent Current
+ParameterUpdate24=1
+ParameterName25=RoHS
+ParameterUpdate25=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOT-23-5 (MCP754x) A
+ModelName0=LQFP48 (STM32G0) A
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=SOT-23-5 (MCP754x) C
+ModelName1=LQFP48 (STM32G0) B
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=SOT-23-5 (MCP75x) B
+ModelName2=LQFP48 (STM32G0) C
 ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=SOT-23-5 (DBV0005A) A
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=SOT-23-5 (DBV0005A) B
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=SOT-23-5 (DBV0005A) C
+ModelUpdate5=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
