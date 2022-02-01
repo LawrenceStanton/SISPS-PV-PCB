@@ -1,0 +1,2 @@
+UART=Tx,Rx
+USB=D_N,D_P

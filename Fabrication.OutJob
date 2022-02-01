@@ -15,12 +15,12 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Fabrication.OutJob
 Description=
 TargetOutputMedium=Fabrication
 VariantName=[No Variations]
-VariantScope=2
-CurrentConfigurationName=Fabrication
+VariantScope=1
+CurrentConfigurationName=
 TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
@@ -225,9 +225,9 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 PcbPrintPreferences15=
 
 [PublishSettings]
-OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
+OutputFilePath2=C:\Users\Public\Documents\Altium\SISPS-PV\Project Outputs for SISPS-PV\Fabrication Drawing.PDF
 ReleaseManaged2=1
-OutputBasePath2=
+OutputBasePath2=Project Outputs for SISPS-PV
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -237,7 +237,7 @@ OutputFileName2=Fabrication Drawing
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
-OpenOutput2=0
+OpenOutput2=1
 PromptOverwrite2=0
 PublishMethod2=0
 ZoomLevel2=50
@@ -252,9 +252,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
+OutputFilePath3=C:\Users\Public\Documents\Altium\SISPS-PV\Project Outputs for SISPS-PV\
 ReleaseManaged3=1
-OutputBasePath3=
+OutputBasePath3=Project Outputs for SISPS-PV
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -267,9 +267,9 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\Output Jobs.PDF
-OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Public\Documents\Altium\Projects\PV Drive\Project Outputs for SISPS-PV\
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\SISPS-PV\Project Outputs for SISPS-PV\Fabrication Drawing.PDF
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\SISPS-PV\Project Outputs for SISPS-PV\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
