@@ -31,13 +31,19 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=
+OutputPath=Project Outputs for SISPS-PV
 LogFolderPath=
 ManagedProjectGUID=A88AC864-7F10-477D-A582-77F547FCAFC0
 VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8
 ReleaseVaultName=UCT - University of Cape Town
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=D4165D52-122C-43BB-9DF9-A7F20254E0C8&ItemGUID=A3AFBC29-FCDE-4065-8F13-02597E14B0B3&RevisionGUID=638556A8-D0A1-42E0-A415-95E592336FE4&"MainFilename=PRJT-0003-1.PrjPCB"
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -155,7 +161,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -172,7 +178,7 @@ AnnotateStartValue=100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -206,7 +212,7 @@ AnnotateStartValue=100
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -223,7 +229,7 @@ AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -257,7 +263,7 @@ AnnotateStartValue=300
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -274,7 +280,7 @@ AnnotateStartValue=300
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -291,7 +297,7 @@ AnnotateStartValue=500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -308,7 +314,7 @@ AnnotateStartValue=500
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -325,7 +331,7 @@ AnnotateStartValue=300
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=9
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -342,7 +348,7 @@ AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=10
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -376,7 +382,7 @@ AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -410,7 +416,7 @@ AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=12
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -421,6 +427,40 @@ GenerateClassCluster=0
 DocumentUniqueId=RPHUKVZG
 
 [Document23]
+DocumentPath=RS485 Tranciever.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=19
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UBCDHHGF
+
+[Document24]
+DocumentPath=Mechanical.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=18
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XYCTAURL
+
+[Document25]
 DocumentPath=Sensors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -437,14 +477,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
-DocumentPath=USB-UART Converter.SchDoc
+[Document26]
+DocumentPath=USB-UART Converter (FT232).SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=13
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -454,31 +494,31 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YJRTTMVF
 
-[Document25]
-DocumentPath=USB-UART Converter.Harness
+[Document27]
+DocumentPath=USB-UART Converter (CP2102).SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=14
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=PAFBMYEW
 
-[Document26]
+[Document28]
 DocumentPath=Illustrations 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=15
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -488,14 +528,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AQDPDGLM
 
-[Document27]
+[Document29]
 DocumentPath=Illustrations 2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=16
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -505,14 +545,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVGNTSPU
 
-[Document28]
+[Document30]
 DocumentPath=Simulation 1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=17
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -522,24 +562,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FAEIFOHN
 
-[Document29]
-DocumentPath=Mechanical.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XYCTAURL
-
-[Document30]
+[Document31]
 DocumentPath=PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -556,41 +579,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJBCCLRU
 
-[Document31]
-DocumentPath=RS485 Tranciever.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=400
-AnnotationIndexControlEnabled=1
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UBCDHHGF
-
 [Document32]
-DocumentPath=RS485 Tranciever.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document33]
 DocumentPath=Assembley.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -607,7 +596,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document33]
 DocumentPath=Fabrication.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -624,8 +613,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
+[Document34]
 DocumentPath=Backplane.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document35]
+DocumentPath=USB-UART Converter (CP2102).Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document36]
+DocumentPath=USB-UART Converter (FT232).Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document37]
+DocumentPath=RS485 Tranciever.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -672,7 +712,7 @@ UniqueID=E4FDD9B6-714D-41E3-97F8-91ED8B610A74
 Description=JLCPCB SMT Assembley
 AllowFabrication=0
 ParameterCount=0
-VariationCount=41
+VariationCount=43
 Variation1=Designator=R200|UniqueId=\XQBFDPPQ\JPOGSICI\PBHEESZX|Kind=1|AlternatePart= 
 Variation2=Designator=R202|UniqueId=\XQBFDPPQ\JPOGSICI\TECQAZKW|Kind=1|AlternatePart= 
 Variation3=Designator=R201|UniqueId=\XQBFDPPQ\JPOGSICI\FFSCUZOI|Kind=1|AlternatePart= 
@@ -714,6 +754,8 @@ Variation38=Designator=U409|UniqueId=\XQBFDPPQ\HUJFOYKF\YDGHXHII\UYEQMPHH|Kind=1
 Variation39=Designator=U402|UniqueId=\XQBFDPPQ\HUJFOYKF\JLHDIDNO|Kind=1|AlternatePart= 
 Variation40=Designator=Q304|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\ATEUPSHR|Kind=1|AlternatePart= 
 Variation41=Designator=Q305|UniqueId=\XQBFDPPQ\ZBKLHFBG\XSAZGXFT\HKKBZAAH|Kind=1|AlternatePart= 
+Variation42=Designator=R513|UniqueId=\XQBFDPPQ\UEXDFSKE\BKMASJBQ|Kind=1|AlternatePart= 
+Variation43=Designator=R505|UniqueId=\XQBFDPPQ\UEXDFSKE\KPVGJTVL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -1055,104 +1097,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Parameter2]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=27/10/2021
 
 [Parameter3]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter4]
-Name=Rev_No_2
-Value=v1.2
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter5]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC PEAD
 
 [Parameter6]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter7]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter8]
-Name=Rev_Desc_2
-Value=Change to JLCPCB
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter9]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter10]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 W
 
 [Parameter11]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter12]
-Name=Rev_Date_2
-Value=27/10/2021
+Name=Project_Revision
+Value=v2.0
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Project_Revision
-Value=v2.0
-
-[Parameter15]
-Name=PCB_DOC
-Value=PCB.PcbDoc
-
-[Parameter16]
-Name=Licence
-Value=CERN OHL v2 W
-
-[Parameter17]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
-
-[Parameter18]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
-
-[Parameter19]
-Name=DwgTitleLine1
-Value=SISPS-PV
-
-[Parameter20]
-Name=CPL_DOC
-Value=Pick and Place.csv
-
-[Parameter21]
-Name=Checker
-Value=JC PEAD
-
-[Parameter22]
-Name=BOM_DOC
-Value=Bill of Materials.csv
-
-[Parameter23]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
-
-[Parameter24]
-Name=Approv_Date_Eng
+Name=Rev_Date_2
 Value=27/10/2021
 
-[Parameter25]
-Name=Approv_Date_Chk
+[Parameter15]
+Name=Rev_Date_3
 Value=--/--/----
+
+[Parameter16]
+Name=Rev_Date_4
+Value=--/--/----
+
+[Parameter17]
+Name=Rev_Desc_1
+Value=Initial Prototype
+
+[Parameter18]
+Name=Rev_Desc_2
+Value=Change to JLCPCB
+
+[Parameter19]
+Name=Rev_Desc_3
+Value=- - - - -
+
+[Parameter20]
+Name=Rev_Desc_4
+Value=- - - - -
+
+[Parameter21]
+Name=Rev_No_1
+Value=v1.0
+
+[Parameter22]
+Name=Rev_No_2
+Value=v1.2
+
+[Parameter23]
+Name=Rev_No_3
+Value=-
+
+[Parameter24]
+Name=Rev_No_4
+Value=-
+
+[Parameter25]
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Configuration1]
 Name=Sources
@@ -1273,7 +1315,7 @@ ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analys
 LastAcknowledgment=2021-10-21T08:56:52.0000000Z
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for SISPS-PV
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -2104,19 +2146,7 @@ SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name Only
-ComponentLibraryIdentifier0=University of Cape Town
-ComponentDesignItemID0=CMP-008-000011-3
-ComponentSymbolReference0=LP2985
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name Only
-ComponentLibraryIdentifier1=University of Cape Town
-ComponentDesignItemID1=CMP-051-000054-4
-ComponentSymbolReference1=STM32G070CBT6
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
@@ -2129,78 +2159,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Accuracy
-ParameterUpdate0=1
-ParameterName1=Case/Package
-ParameterUpdate1=1
-ParameterName2=Comment
-ParameterUpdate2=1
-ParameterName3=Component Kind
-ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
-ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
-ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
-ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
-ParameterUpdate7=1
-ParameterName8=ComponentLink3Description
-ParameterUpdate8=1
-ParameterName9=ComponentLink3URL
-ParameterUpdate9=1
-ParameterName10=Description
-ParameterUpdate10=1
-ParameterName11=Dropout Voltage
-ParameterUpdate11=1
-ParameterName12=LCSC Part Number
-ParameterUpdate12=1
-ParameterName13=Library Reference
-ParameterUpdate13=1
-ParameterName14=Manufacturer
-ParameterUpdate14=1
-ParameterName15=Max Input Voltage
-ParameterUpdate15=1
-ParameterName16=Max Operating Temperature
-ParameterUpdate16=1
-ParameterName17=Max Output Current
-ParameterUpdate17=1
-ParameterName18=Max Output Voltage
-ParameterUpdate18=1
-ParameterName19=Max Supply Voltage
-ParameterUpdate19=1
-ParameterName20=Min Input Voltage
-ParameterUpdate20=1
-ParameterName21=Min Operating Temperature
-ParameterUpdate21=1
-ParameterName22=Output Voltage
-ParameterUpdate22=1
-ParameterName23=Placement
-ParameterUpdate23=1
-ParameterName24=Quiescent Current
-ParameterUpdate24=1
-ParameterName25=RoHS
-ParameterUpdate25=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=LQFP48 (STM32G0) A
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=LQFP48 (STM32G0) B
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=LQFP48 (STM32G0) C
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=SOT-23-5 (DBV0005A) A
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=SOT-23-5 (DBV0005A) B
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=SOT-23-5 (DBV0005A) C
-ModelUpdate5=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
