@@ -1098,104 +1098,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=27/10/2021
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=v1.2
 
 [Parameter5]
-Name=Checker
-Value=JC PEAD
+Name=Rev_No_1
+Value=v1.0
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
-Value=SISPS-PV
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
+Name=Rev_Desc_2
+Value=Change to JLCPCB
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=Initial Prototype
 
 [Parameter10]
-Name=Licence
-Value=CERN OHL v2 W
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v2.0
+Name=Rev_Date_2
+Value=27/10/2021
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Rev_Date_2
-Value=27/10/2021
+Name=Project_Revision
+Value=v2.0
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 W
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
-Value=Change to JLCPCB
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter19]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC Pead
 
 [Parameter22]
-Name=Rev_No_2
-Value=v1.2
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=27/10/2021
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
@@ -1304,9 +1304,8 @@ SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
-
-[Generic_EDE]
-OutputDir=
+Wir_PrintColor=0
+Ldr_PrintColor=0
 
 [Generic_SimulationProfiles]
 ActiveProfile=DQSKIOAJ
@@ -1317,6 +1316,9 @@ ConfigParameters0=OP_Analysis=True|TRAN_Analysis=True|DC_Analysis=True|AC_Analys
 
 [Generic_CoDesigner Mechatronic Panel]
 LastAcknowledgment=2022-04-13T15:33:49.0000000
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1906,66 +1908,36 @@ OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Ansoft Neutral
-OutputName7=Ansoft Neutral (AutoPCB)
+OutputType7=AutoCAD dwg/dxf PCB
+OutputName7=AutoCAD dwg/dxf File PCB
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=AutoCAD dwg/dxf PCB
-OutputName8=AutoCAD dwg/dxf File PCB
+OutputType8=AutoCAD dwg/dxf Schematic
+OutputName8=AutoCAD dwg/dxf File Schematic
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=AutoCAD dwg/dxf Schematic
-OutputName9=AutoCAD dwg/dxf File Schematic
+OutputType9=ExportIDF
+OutputName9=Export IDF
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ExportIDF
-OutputName10=Export IDF
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportPARASOLID
-OutputName12=Export PARASOLID
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=MBAExportSTEP
-OutputName13=Export STEP
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=Web ReviewOutputName
-OutputName18=Web Review Data
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -2098,6 +2070,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
