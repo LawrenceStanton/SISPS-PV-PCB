@@ -3,6 +3,8 @@ name: Mirror
 on:
   schedule:
     - cron: "0 */1 * * *"
+  push:
+  pull_request:
 
 jobs:
   Mirror:
