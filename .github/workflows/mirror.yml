@@ -15,6 +15,7 @@ jobs:
         with:
           name: ${{ secrets.ALTIUM_USERNAME }}
           token: ${{ secrets.ALTIUM_TOKEN }}
+          global: true
 
       - name: Clone Altium Repository
         run: git clone --mirror https://afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git SISPS-PV-PCB && cd SISPS-PV-PCB
