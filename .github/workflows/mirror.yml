@@ -1,0 +1,15 @@
+name: Mirror
+
+on:
+  schedule:
+    - cron: "0 */1 * * *"
+
+jobs:
+  Mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          repository: https://afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git
+          token: ${{ secrets.ALTIUM_TOKEN }}
+          path: SISPS-PV-PCB
