@@ -15,21 +15,11 @@ jobs:
   Mirror:
     runs-on: ubuntu-latest
     steps:
-      # - name: Setup Git Credentials
-      #   uses: oleksiyrudenko/gha-git-credentials@v2-latest
-      #   with:
-      #     name: ${{ secrets.ALTIUM_USERNAME }}
-      #     actor: ${{ secrets.ALTIUM_USERNAME }}
-      #     token: ${{ secrets.ALTIUM_TOKEN }}
-      #     global: true
-
-      - uses: actions/checkout@v3
-
       - name: Clone Altium Repository
         run: git clone --mirror https://${{secrets.ALTIUM_USERNAME}}:${{secrets.ALTIUM_TOKEN}}@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git SISPS-PV-PCB
 
       - name: Push to GitHub
         working-directory: SISPS-PV-PCB
         run: |
-          git remote set-url --add --push origin https://github.com/LawrenceStanton/SISPS-PV-PCB.git
+          git remote set-url --add --push origin https://LawrenceStanton:${{secrets.GITHUB_TOKEN}}github.com/LawrenceStanton/SISPS-PV-PCB.git
           git push --mirror
