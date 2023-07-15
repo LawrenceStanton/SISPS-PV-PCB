@@ -21,7 +21,7 @@ jobs:
       - name: Set GitHub Push URL
         working-directory: SISPS-PV-PCB
         run: |
-          git remote set-url --add --push origin https://LawrenceStanton:${{secrets.GITHUB_TOKEN}}github.com/LawrenceStanton/SISPS-PV-PCB.git
+          git remote set-url --add --push origin https://LawrenceStanton:${{secrets.GITHUB_TOKEN}}@github.com/LawrenceStanton/SISPS-PV-PCB.git
 
       - name: Push to GitHub
         working-directory: SISPS-PV-PCB
