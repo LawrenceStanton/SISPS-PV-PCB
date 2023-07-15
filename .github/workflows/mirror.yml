@@ -31,5 +31,6 @@ jobs:
 
       - name: Push to GitHub
         run: |
+          git status
           git remote set-url --add --push origin https://github.com/LawrenceStanton/SISPS-PV-PCB.git
           git push --mirror
