@@ -28,6 +28,9 @@ jobs:
           SISPS-PV-PCB \
           && cd SISPS-PV-PCB
 
+      - name: List Files
+        run: ls -la
+
       - name: Push to GitHub
         run: |
           git remote set-url --add --push origin https://github.com/LawrenceStanton/SISPS-PV-PCB.git
