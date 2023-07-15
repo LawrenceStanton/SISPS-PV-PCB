@@ -19,7 +19,7 @@ jobs:
       #     global: true
 
       - name: Clone Altium Repository
-        run: git clone --mirror https://afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git
+        run: git clone --mirror https://${{secrets.ALTIUM_USERNAME}}:${{secrets.ALTIUM_TOKEN}}@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git
 
       - name: Push to GitHub
         run: |
