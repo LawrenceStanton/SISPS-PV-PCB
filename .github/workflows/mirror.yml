@@ -1,5 +1,9 @@
 name: Mirror
 
+# Mirrors the Altium 365 hosted repository to GitHub every six hours.
+
+# ! Note: The ALTIUM_SUERNAME secret should encode '@' as '%40.
+
 on:
   schedule:
     - cron: "0 */1 * * *"
@@ -19,7 +23,10 @@ jobs:
       #     global: true
 
       - name: Clone Altium Repository
-        run: git clone --mirror https://${{secrets.ALTIUM_USERNAME}}:${{secrets.ALTIUM_TOKEN}}@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git
+        run: git clone --mirror \
+          https://${{secrets.ALTIUM_USERNAME}}:${{secrets.ALTIUM_TOKEN}}@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git \
+          SISPS-PV-PCB \
+          && cd SISPS-PV-PCB
 
       - name: Push to GitHub
         run: |
