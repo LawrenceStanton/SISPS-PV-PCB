@@ -2,7 +2,10 @@ name: Mirror
 
 # Mirrors the Altium 365 hosted repository to GitHub every six hours.
 
-# ! Note: The ALTIUM_USERNAME secret should encode '@' as '%40'.
+# Notes:
+# - ALTIUM_TOKEN is the user password to Altium 365.
+# - ALTIUM_USERNAME should encode '@' as '%40'.
+# - WORKFLOW_TOKEN is a GitHub personal access token with the 'workflow' scope.
 
 on:
   schedule:
@@ -15,20 +18,30 @@ on:
 jobs:
   Mirror:
     runs-on: ubuntu-latest
+
     steps:
       - name: Clone Altium Repository
-        run: git clone --mirror https://${{secrets.ALTIUM_USERNAME}}:${{secrets.ALTIUM_TOKEN}}@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git SISPS-PV-PCB
+        env:
+          ALTIUM_USERNAME: ${{ secrets.ALTIUM_USERNAME }}
+          ALTIUM_TOKEN: ${{ secrets.ALTIUM_TOKEN }}
+        run: git clone --mirror https://"$ALTIUM_USERNAME":"$ALTIUM_TOKEN"@afs-vcs-eu1.365.altium.com/git/A88AC864-7F10-477D-A582-77F547FCAFC0.git SISPS-PV-PCB
 
       - name: Reauthor All Commits
         working-directory: SISPS-PV-PCB
-        run: |
-          git filter-branch --env-filter "GIT_AUTHOR_NAME='Lawrence Stanton' GIT_AUTHOR_EMAIL='52958935+LawrenceStanton@users.noreply.github.com' GIT_COMMITTER_NAME='Lawrence Stanton' GIT_COMMITTER_EMAIL='52958935+LawrenceStanton@users.noreply.github.com'" HEAD
+        env:
+          GIT_NAME: Lawrence Stanton
+          GIT_EMAIL: 52958935+LawrenceStanton@users.noreply.github.com
+        run:
+          git filter-branch --env-filter "GIT_AUTHOR_NAME='$GIT_NAME' GIT_AUTHOR_EMAIL='$GIT_EMAIL' GIT_COMMITTER_NAME='$GIT_NAME' GIT_COMMITTER_EMAIL='$GIT_EMAIL'" HEAD
+          # ! Note: Commit signing is not possible — will redo each commit, messing up dates.
 
       - name: Set GitHub Push URL
         working-directory: SISPS-PV-PCB
+        env:
+          WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         run: |
-          git remote set-url --add --push origin https://LawrenceStanton:${{secrets.WORKFLOW_TOKEN}}@github.com/LawrenceStanton/SISPS-PV-PCB.git
+          git remote set-url --add --push origin https://LawrenceStanton:'$WORKFLOW_TOKEN'@github.com/LawrenceStanton/SISPS-PV-PCB.git
 
       - name: Push to GitHub
         working-directory: SISPS-PV-PCB
-        run: git push --mirror --force
+        run: git push --mirror --force # Can be reckless with --force as this is a read-only mirror.
