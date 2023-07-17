@@ -59,7 +59,6 @@ ii) as part of the normal distribution of a tool used to design or Make the Prod
 
 1.13 'Convey' means to communicate to the public or distribute.
 
-
 2 Applicability
 
   2.1 This Licence governs the use, copying, modification, Conveying of Covered Source and Products, and the Making of Products. By exercising any right granted under this Licence, You irrevocably accept these terms and conditions.
