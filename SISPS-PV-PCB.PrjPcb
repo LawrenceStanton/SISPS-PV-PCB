@@ -682,23 +682,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
-DocumentPath=DELETEME.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NVSMQMFC
-
 [ProjectVariant1]
 UniqueID=130D30AD-CD42-45D7-934C-EAE8C87DE727
 Description=Fully Populated
@@ -1115,104 +1098,104 @@ DocumentPath=Simulation\PanelMode Enable.sdf
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Approv_Date_Chk
-Value=--/--/----
+Name=SCH_DOC
+Value=Main.SchDoc
 
 [Parameter2]
-Name=Approv_Date_Eng
-Value=27/10/2021
+Name=Rev_No_4
+Value=-
 
 [Parameter3]
-Name=ASM_DOC
-Value=Assembley.PCBDwf
+Name=Rev_No_3
+Value=-
 
 [Parameter4]
-Name=BOM_DOC
-Value=Bill of Materials.csv
+Name=Rev_No_2
+Value=v1.2
 
 [Parameter5]
-Name=Checker
-Value=JC Pead
+Name=Rev_No_1
+Value=v1.0
 
 [Parameter6]
-Name=CPL_DOC
-Value=Pick and Place.csv
+Name=Rev_Desc_4
+Value=- - - - -
 
 [Parameter7]
-Name=DwgTitleLine1
-Value=SISPS-PV
+Name=Rev_Desc_3
+Value=- - - - -
 
 [Parameter8]
-Name=DwgTitleLine2
-Value=Photovoltaic MPPT Converter
+Name=Rev_Desc_2
+Value=Change to JLCPCB
 
 [Parameter9]
-Name=FAB_DOC
-Value=Fabrication.PCBDwf
+Name=Rev_Desc_1
+Value=Initial Prototype
 
 [Parameter10]
-Name=Licence
-Value=CERN OHL v2 W
+Name=Rev_Date_4
+Value=--/--/----
 
 [Parameter11]
-Name=PCB_DOC
-Value=PCB.PcbDoc
+Name=Rev_Date_3
+Value=--/--/----
 
 [Parameter12]
-Name=Project_Revision
-Value=v2.0
+Name=Rev_Date_2
+Value=27/10/2021
 
 [Parameter13]
 Name=Rev_Date_1
 Value=18/10/2021
 
 [Parameter14]
-Name=Rev_Date_2
-Value=27/10/2021
+Name=Project_Revision
+Value=v2.0
 
 [Parameter15]
-Name=Rev_Date_3
-Value=--/--/----
+Name=PCB_DOC
+Value=PCB.PcbDoc
 
 [Parameter16]
-Name=Rev_Date_4
-Value=--/--/----
+Name=Licence
+Value=CERN OHL v2 Strongly Reciprocal
 
 [Parameter17]
-Name=Rev_Desc_1
-Value=Initial Prototype
+Name=FAB_DOC
+Value=Fabrication.PCBDwf
 
 [Parameter18]
-Name=Rev_Desc_2
-Value=Change to JLCPCB
+Name=DwgTitleLine2
+Value=Photovoltaic MPPT Converter
 
 [Parameter19]
-Name=Rev_Desc_3
-Value=- - - - -
+Name=DwgTitleLine1
+Value=SISPS-PV
 
 [Parameter20]
-Name=Rev_Desc_4
-Value=- - - - -
+Name=CPL_DOC
+Value=Pick and Place.csv
 
 [Parameter21]
-Name=Rev_No_1
-Value=v1.0
+Name=Checker
+Value=JC Pead
 
 [Parameter22]
-Name=Rev_No_2
-Value=v1.2
+Name=BOM_DOC
+Value=Bill of Materials.csv
 
 [Parameter23]
-Name=Rev_No_3
-Value=-
+Name=ASM_DOC
+Value=Assembley.PCBDwf
 
 [Parameter24]
-Name=Rev_No_4
-Value=-
+Name=Approv_Date_Eng
+Value=27/10/2021
 
 [Parameter25]
-Name=SCH_DOC
-Value=Main.SchDoc
+Name=Approv_Date_Chk
+Value=--/--/----
 
 [Configuration1]
 Name=Sources
