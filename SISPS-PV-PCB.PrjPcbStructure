@@ -14,6 +14,7 @@ Record=SheetSymbol|SourceDocument=Bridge Regulator.SchDoc|Designator=U_Panel Mod
 Record=SheetSymbol|SourceDocument=MCU.SchDoc|Designator=U_EEPROM|SchDesignator=U_EEPROM|FileName=EEPROM.SchDoc|SheetNumber=12|SymbolType=Normal|RawFileName=EEPROM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MCU.SchDoc|Designator=U_RS485 Tranciever|SchDesignator=U_RS485 Tranciever|FileName=RS485 Tranciever.SchDoc|SheetNumber=14|SymbolType=Normal|RawFileName=RS485 Tranciever.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=MCU.SchDoc|Designator=U_Sensors|SchDesignator=U_Sensors|FileName=Sensors.SchDoc|SheetNumber=13|SymbolType=Normal|RawFileName=Sensors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Front.SchDoc|FileName=DELETEME.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=Front.SchDoc|FileName=Illustrations 1.SchDoc|SheetNumber=18
 Record=NoMainPathDocument|SourceDocument=Front.SchDoc|FileName=Illustrations 2.SchDoc|SheetNumber=19
 Record=NoMainPathDocument|SourceDocument=Front.SchDoc|FileName=Simulation 1.SchDoc|SheetNumber=20
