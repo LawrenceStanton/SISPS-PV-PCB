@@ -40,7 +40,7 @@ jobs:
         env:
           WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
         run: |
-          git remote set-url --add --push origin https://LawrenceStanton:$WORKFLOW_TOKEN@github.com/LawrenceStanton/SISPS-PV-PCB.git
+          git remote set-url --push origin https://LawrenceStanton:$WORKFLOW_TOKEN@github.com/LawrenceStanton/SISPS-PV-PCB.git
 
       - name: Push to GitHub
         working-directory: SISPS-PV-PCB
